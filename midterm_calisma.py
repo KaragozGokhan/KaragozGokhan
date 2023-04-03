@@ -8,7 +8,7 @@ def motion(event):
 
 master = Tk()
 
-msg1 = "Hepsi ameriganın oyunu"
+msg1 = "This is new message"
 msg2 = Message(master, text = msg1)
 msg2.config(bg = "yellow", font = ("times", 16 , "italic"))
 msg2.pack()
