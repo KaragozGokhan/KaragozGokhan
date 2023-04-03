@@ -3,12 +3,12 @@ from PIL import Image,ImageTk
 from tkinter import messagebox
 
 root = Tk()
-root.title = ("mesaj kutusu len ")
+root.title = ("mesaj kutusu ")
 
 #showinfo, showwarning, showerror, askquestion, askokcancel, askyesno
 
 def mesaj():
-    cevap =messagebox.askyesno("Top secret info", "Türkiye'nin gizli üssü kaleciktedir")
+    cevap =messagebox.askyesno("Top secret info", "Nobody knows")
     Label(root, text=cevap).pack()
     if cevap == 1 :
         Label(root, text="Yanlış cevap").pack()
