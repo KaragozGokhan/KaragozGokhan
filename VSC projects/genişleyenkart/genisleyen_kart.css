@@ -1,0 +1,10 @@
+#danaantrikot{
+    border-radius: 50%;
+    border-width: 200px;
+    position: fixed;
+    padding: 20%;
+    text-align: center;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

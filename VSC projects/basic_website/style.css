@@ -1,0 +1,16 @@
+body {
+    background-image: url("1.jpg");
+    background-size: cover;
+    
+    
+  }
+
+h2{
+    color: #017bf5;
+}
+div{
+    font-size: 200%;
+    text-align: center;
+    color: red;
+    
+}

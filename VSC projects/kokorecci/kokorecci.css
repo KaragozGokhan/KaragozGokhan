@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: underline;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: blue;
+    border-bottom: 5px solid red;
+    border-radius: 60%;
+}
+div{
+    border: 5px solid green;
+    background-color:yellow;
+    font-weight: bold;
+    
+}
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
